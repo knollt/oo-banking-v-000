@@ -12,9 +12,8 @@ class BankAccount
     @status = "open"
   end
 
-  def deposit(balance)
-    @balance + balance
-    balance
+  def deposit(money)
+    @balance += money
     # binding.pry
   end
 
