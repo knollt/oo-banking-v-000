@@ -1,3 +1,9 @@
 class Transfer
-  # your code here
+  attr_accessor 
+
+
+  def initialize (sender, receiver, amount)
+
+  end 
+    
 end
